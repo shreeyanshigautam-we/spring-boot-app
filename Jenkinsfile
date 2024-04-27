@@ -1,6 +1,6 @@
 node {
   stage("Clone the project") {
-    git branch: 'main', url: 'https://github.com/shreeyanshigautam-we/spring-boot-app.git'
+    git branch: 'main', url: 'https://github.com/nkchauhan003/jenkins-demo.git'
   }
 
   stage("Compilation") {
